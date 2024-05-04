@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*subpage css*/
+main {width: 100%; height: 1823.98px;}
+#top_logo {width: 100%; height: 410px;}
+#top_logo img{width: 1920px; height: 410px;}
+/*본문*/
+article {width: 1400px; height:1413.98px; margin: 0 auto; overflow: hidden;}
+article .sub-title {width: 1400px; padding: 80px 0;}
+article .sub-title h2 {font-size: 42px; font-weight: 600; color: #000;}
+/*subpage title*/
+article .sub-txt-1 {width: 1400px; height: 106.38px; margin-bottom: 30px;}
+article .sub-txt-1 ul{text-align: center;}
+article .sub-txt-1 ul li{font-size: 35.5px;}
+article .sub-txt-1 ul li span{}
+article .sub-txt-1 ul li span strong{color: #D5021F;}
+article .sub-txt-2 {width: 1400px; height: 64px; margin-bottom: 70px;}
+article .sub-txt-2 ul{text-align: center;}
+article .sub-txt-2 ul li{font-size: 18px; color: #444444;}
+article .sub-txt-2 ul li span{}
+/*subpage 소개란*/
+#ceo-box {position: relative; width: 1400px; height: 951.17px;}
+#ceo-box figure{}
+#ceo-box figure img{}
+#ceo-box .txt-area{position: absolute; right: 0; top: 0px; width: 690px; height: 951.17px;}
+#ceo-box .txt-area ul{}
+#ceo-box .txt-area ul li{padding: 15px 0 0 0; font-size: 18px; font-weight: 300; color: #111;}
+#ceo-box .txt-area ul:nth-of-type(1) li{padding: 15px 0 0;}
+#ceo-box .txt-area ul li p{line-height: 1.8; letter-spacing: -2px;}
+#ceo-box .txt-area ul:nth-of-type(2){display: inline-block;}
+#ceo-box .txt-area ul:nth-of-type(2) li:nth-child(1){padding: 45px 92px 10px 0; line-height: 1.2; font-size: 24px; letter-spacing: -1px; color: #000;}
+#ceo-box .txt-area ul:nth-of-type(2) li span{font-weight: 100px;}
+#ceo-box .txt-area ul:nth-of-type(2) li span strong{padding: 0 0 0 10px; letter-spacing: 3px;}
+#ceo-box .txt-area ul:nth-of-type(2) li:nth-of-type(2) {display: inline-block;}
+#ceo-box .txt-area ul:nth-of-type(2) li img{ position: absolute; left: 180px; bottom: 135px;}
+

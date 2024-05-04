@@ -1,0 +1,404 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>sub2</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/sub2.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+
+	<div id="wrap">
+		<header id="header">
+			<nav class="navbar"> <!--네비게이션 메뉴 -->
+				<div class="nav-inner">
+					<h1><a href="/index.html"></a></h1> <!--로고 -->
+					<ul class="header-nav-left">
+						<li><a href="#">제품/서비스</a></li>
+						<li><a href="#">투자정보</a></li>
+						<li><a href="/sub1.html">인재채용</a></li>
+						<li><a href="/sub5.html">회사소개</a></li>
+					</ul>
+
+
+					<ul class="header-nav-right">
+						<li><button type="button">제품문의하기</button></li>
+						<li><button type="button">KOR</button></li>
+						<li><button type="button">USA</button></li>
+						<li><button type="button">EU</button></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div id="top_bg"></div>
+			<section id="section1">
+				<h2>견적서 요청</h2>
+				<div class="inner1">
+					<table class="box1">
+						<tr>
+							<th rowspan="3">회사 정보</th>
+							<td><span class="star"><input type="text" class="name" placeholder="성명"></span></td>
+							<td>
+								<span>
+									<select>
+										<option value disabled selected>지역선택</option>
+										<option value="강원도">강원도</option>
+										<option value="경기도">경기도</option>
+										<option value="경삼남도">경삼남도</option>
+										<option value="경상북도">경상북도</option>
+										<option value="광주광역시">광주광역시</option>
+										<option value="대구광역시">대구광역시</option>
+										<option value="대전광역시">대전광역시</option>
+										<option value="부산광역시">부산광역시</option>
+										<option value="서울특별시">서울특별시</option>
+										<option value="세종특별자치시">세종특별자치시</option>
+										<option value="울산광역시">울산광역시</option>
+										<option value="인천광역시">인천광역시</option>
+										<option value="전라남도">전라남도</option>
+										<option value="전라북도">전라북도</option>
+										<option value="제주특별자치도">제주특별자치도</option>
+										<option value="충청남도">충청남도</option>
+										<option value="충청북도">충청북도</option>
+									</select>
+								</span>
+							</td>
+						</tr>
+
+						<tr>
+							<td><span class="star"><input type="tel" class="phone" placeholder="전화번호"></span></td>
+							<td><span class="star"><input type="email" class="email" placeholder="이메일"></span></td>
+						</tr>
+
+						<tr>
+							<td><span><input type="text" class="storename" placeholder="회사명"></span></td>
+							<td>
+								<span>
+									<select name="order_business_type" class="business_type">
+										<option value disabled selected>구매 유형 선택</option>
+										<option value="개인 구매">개인구매</option>
+										<option value="CPO 사업자">CPO 사업자</option>
+										<option value="에이전시">에이전시</option>
+										<option value="공공기관 납품">공공기관 납품</option>
+										<option value="공사관련 납품">공사관련 납품</option>
+										<option value="기타">기타</option>
+									</select>
+								</span>
+							</td>
+						</tr>
+
+					</table>
+				</div>
+			</section>
+
+			<section id="section2">
+				<div class="inner2">
+					<b>프로젝트 정보</b>
+					<textarea placeholder="프로젝트 정보를 입력해 주십시오."></textarea>
+				</div>
+			</section>
+
+			<section id="section3">
+				<div class="inner3">
+					<table>
+
+						<tr>
+							<th rowspan="17">제품요청 정보</th>
+							<td class="text_F">충전기 타입</td>
+							<td>
+								<input type="radio" id="charger1" name="charger">
+								<label for="charger1">완속충전기</label>
+							</td>
+							<td>
+								<input type="radio" id="charger2" name="charger">
+								<label for="charger2">급속충전기</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="text_F">충전기 용량</td>
+							<td>
+								<input type="radio" id="ptt1" name="ptt">
+								<label for="ptt1">7KW 급 충전기</label>
+							</td>
+							<td>
+								<input type="radio" id="ptt2" name="ptt">
+								<label for="ptt2">11KW 급 충전기</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td rowspan="2" class="text_F">커넥터 타입</td>
+							<td class="text_top">
+								<input type="radio" id="connect1" name="connect">
+								<label for="connect1">5P B타입</label>
+							</td>
+							<td class="text_top">
+								<input type="radio" id="connect2" name="connect">
+								<label for="connect2">5P 케이블</label>
+							</td>
+							<td class="text_top">
+								<input type="radio" id="connect3" name="connect">
+								<label for="connect3">5P B타입 듀얼</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<input type="radio" id="connect4" name="connect">
+								<label for="connect4">5P 케이블 듀얼</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td rowspan="2" class="text_F">디스플레이</td>
+							<td class="text_top">
+								<input type="checkbox" id="display1" name="display">
+								<label for="display1">4.3 Inch</label>
+							</td>
+							<td class="text_top">
+								<input type="checkbox" id="display2" name="display">
+								<label for="display2">8 Inch (터치 LCD)</label>
+							</td>
+							<td class="text_top">
+								<input type="checkbox" id="display3" name="display">
+								<label for="display3">12 Inch (터치LCD)</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<input type="checkbox" id="display4" name="display">
+								<label for="display4">NO (비공용)</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="text_F">결제 타입</td>
+							<td>
+								<input type="checkbox" id="card1" name="card">
+								<label for="card1">신용카드 타입</label>
+							</td>
+							<td>
+								<input type="checkbox" id="card2" name="card">
+								<label for="card2">RFID 타입</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="text_F">통신 연결</td>
+							<td>
+								<input type="checkbox" id="wifi1" name="wifi">
+								<label for="wifi1">이더넷</label>
+							</td>
+							<td>
+								<input type="checkbox" id="wifi2" name="wifi">
+								<label for="wifi2">모뎀(4G/LTE)</label>
+							</td>
+							<td>
+								<input type="checkbox" id="wifi3" name="wifi">
+								<label for="wifi3">없음</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td rowspan="2" class="text_F">서버 연동</td>
+							<td class="text_top">
+								<input type="checkbox" id="server1" name="server">
+								<label for="server1">OCPP 1.6.J</label>
+							</td>
+							<td class="text_top">
+								<input type="checkbox" id="server2" name="server">
+								<label for="server2">OCPP 2.0.1</label>
+							</td>
+							<td class="text_top">
+								<input type="checkbox" id="server3" name="server">
+								<label for="server3">한전 프로토콜</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<input type="checkbox" id="server4" name="server">
+								<label for="server4">CPO 사업</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td rowspan="3" class="text_F">공사 옵션</td>
+							<td class="text_top">
+								<input type="checkbox" id="option1" name="option">
+								<label for="option1">완속충전기 스탠드</label>
+							</td>
+							<td class="text_top">
+								<input type="checkbox" id="option2" name="option">
+								<label for="option2">전기 공사</label>
+							</td>
+							<td class="text_top">
+								<input type="checkbox" id="option3" name="option">
+								<label for="option3">단순 충전기 설치</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="text_top">
+								<input type="checkbox" id="option4" name="option">
+								<label for="option4">캐노피</label>
+							</td>
+							<td class="text_top">
+								<input type="checkbox" id="option5" name="option">
+								<label for="option5">기초패드</label>
+							</td>
+							<td class="text_top">
+								<input type="checkbox" id="option6" name="option">
+								<label for="option6">볼라드</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<input type="checkbox" id="option7" name="option">
+								<label for="option7">주차선 도색</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="text_F">위탁운영</td>
+							<td>
+								<input type="checkbox" id="operating1" name="operating">
+								<label for="operating1">콜센터 대행</label>
+							</td>
+							<td>
+								<input type="checkbox" id="operating2" name="operating">
+								<label for="operating2">관제시스템 제공</label>
+							</td>
+							<td>
+								<input type="checkbox" id="operating3" name="operating">
+								<label for="operating3">운영매출 관리</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="text_F">보증기간</td>
+							<td>
+								<input type="radio" id="year" name="year">
+								<label for="year">2년</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="text_F"><label for="quantity">수량</label></td>
+							<td><span><input type="text" id="quantity"></span></td>
+						</tr>
+
+					</table>
+					<a href="#" class="plus"><span>+ 제품 정보 추가하기</span></a>
+				</div>
+			</section>
+
+			<section id="section4">
+				<div class="inner4">
+					<table>
+						<tr>
+							<th rowspan="2">추가 요청사항</th>
+							<td><textarea placeholder="추가 요청 사항을 입력해 주십시오."></textarea></td>
+						</tr>
+
+						<tr>
+							<td>
+								<div class="text_box">
+									<div class="top">개인정보(고유 식별 번호 포함) 수집 이용에 대한 동의 <span>(필수)</span></div>
+									<div class="text">
+										SK시그넷㈜(이하 ‘회사’)는 ｢개인정보 보호법｣ 제30조에 따라 고객님의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수
+										있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립·공개합니다.
+									</div>
+
+									<div class="text">
+										1. 개인정보의 수집·이용 목적: 회사에서 제공하는 제품 문의 서비스의 본인 확인 및 이용을 위해 활용, 서비스 개선 (인구통계학적 특성에 따른
+										분석 및 서비스 제공, 접속빈도 파악 및 서비스 이용에 대한 통계처리)
+									</div>
+
+									<div class="text">
+										2. 수집하는 개인정보 내용 <br>
+										<ul>
+											<li>SK시그넷 홈페이지 내 마케팅 및 영업 활동을 위하여 아래와 같은 정보를 수집합니다.</li>
+											<li>가. 제품 문의 시 문의자의 이름, 전화번호, 이메일 주소, 지역, 회사명, 구매 유형</li>
+											<li>※ 서비스 이용중 자동 생성: 쿠키, 방문 일시, 서비스 이용기록, 불량 이용기록, CI, DI</li>
+										</ul>
+									</div>
+
+									<div class="text">
+										3. 수집한 개인정보의 보유 및 이용기간 <br>
+										<ul>
+											<li>1) 1년 (관련 법령이 있는 경우 예외)</li>
+											<li>2) 제품 문의에 대한 기록: 3년 (전자상거래 등에서의 소비자 보호에 관한 법률</li>
+											<li>3) 통신비밀보호법에 따른 서비스 이용기록, 접속로그: 3개월</li>
+										</ul>
+										※ '개인정보 유효기간제'에 따라 1년간 서비스를 이용하지 않은 회원의 개인정보를 별도로 분리 보관하여 관리하고 있습니다.
+									</div>
+
+
+								</div>
+							</td>
+						</tr>
+					</table>
+					<span><input type="checkbox" class="cBox">개인정보처리방침에 동의합니다.</span>
+					<a href="#" class="end"><span>견적요청</span></a>
+				</div>
+			</section>
+			<footer id="footer"> <!--푸터 -->
+				<section class="foot-section-box">
+					<div class="foot-section-left">
+						<ul>
+							<li><strong>SK시그넷(주)</strong>&nbsp;대표자:신정호&nbsp;사업자등록번호:367-88-00497</li>
+							<li>연구소:경기도 고양시 일산동구 성현로 377번길 42</li>
+							<li>사무실:서울 영등포구 여의대로 108 파크원 타워 2,42층</li>
+							<li>해외영업:overseas.sales@sk.com</li>
+							<li>국내영업:domesticsales@sk.com</li>
+							<li>제품 C/S:1661-7737 dkyun@sk.com</li>
+							<li>Copyightⓒ2022 SK Signet.All rights reserved</li>
+						</ul>
+					</div>
+					<div class="foot-section-right">
+						<ul>
+							<li><a href="#"><b>윤리경영</b></a></li>
+							<li><a href="#">개인정보처리방침</a></li>
+							<li><a href="#"><img src="img/ico_linked_in.png" alt="footer-icon"></a></li>
+						</ul>
+					</div>
+				</section>
+			</footer>
+
+			<div id="quick"> <!--TOP 이벤트 -->
+				<div class="quick-box">
+					<ul>
+						<li><a href="#"><span>제품문의</span></a></li>
+						<li><a href="#wrap"><span>&nbsp;&nbsp;<img src="img/bg_quick_topbtn.png" alt="quick">
+									<p>TOP</p>
+								</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	<script src="//code.jquery.com/jquery.min.js"></script>
+	<script>
+		var last_top = 0;
+		$(window).scroll(function () {
+			var this_top = $(this).scrollTop();
+			if (this_top > last_top) {
+				$(".navbar").addClass("hide");
+			}
+			else {
+				$(".navbar").removeClass("hide");
+			}
+			last_top = this_top;
+		});
+	</script>
+</body>
+
+</html>

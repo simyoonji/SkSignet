@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>header</title>
+	<link href="css/common.css" rel="stylesheet">
+	<script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+	<div id="wrap">
+		<header id="header">
+			<nav class="navbar"> <!--네비게이션 메뉴 -->
+				<div class="nav-inner">
+					<h1><a href="/index.html"></a></h1> <!--로고 -->
+					<ul class="header-nav-left">
+						<li><a href="">제품/서비스</a></li>
+						<li><a href="">투자정보</a></li>
+						<li><a href="/sub1.html">인재채용</a></li>
+						<li><a href="">회사소개</a></li>
+					</ul>
+
+
+					<ul class="header-nav-right">
+						<li><button type="button">제품문의하기</button>
+						</li>
+						<li><button type="button">KOR</button></li>
+						<li><button type="button">USA</button></li>
+						<li><button type="button">EU</button></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<footer id="footer"> <!--푸터 -->
+			<section class="foot-section-box">
+				<div class="foot-section-left">
+					<ul>
+						<li><strong>SK시그넷(주)</strong>&nbsp;대표자:신정호&nbsp;사업자등록번호:367-88-00497</li>
+						<li>연구소:경기도 고양시 일산동구 성현로 377번길 42</li>
+						<li>사무실:서울 영등포구 여의대로 108 파크원 타워 2,42층</li>
+						<li>해외영업:overseas.sales@sk.com</li>
+						<li>국내영업:domesticsales@sk.com</li>
+						<li>제품 C/S:1661-7737 dkyun@sk.com</li>
+						<li>Copyightⓒ2022 SK Signet.All rights reserved</li>
+					</ul>
+				</div>
+				<div class="foot-section-right">
+					<ul>
+						<li><a href="#"><b>윤리경영</b></a></li>
+						<li><a href="#">개인정보처리방침</a></li>
+						<li><a href="#"><img src="img/ico_linked_in.png" alt="footer-icon"></a></li>
+					</ul>
+				</div>
+			</section>
+		</footer>
+
+		<div id="quick"> <!--TOP 이벤트 -->
+			<div class="quick-box">
+				<ul>
+					<li><a href="#"><span>제품문의</span></a></li>
+					<li><a href="#wrap"><span>&nbsp;&nbsp;<img src="img/bg_quick_topbtn.png" alt="quick">
+								<p>TOP</p>
+							</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- header 숨김 -->
+	<script src="//code.jquery.com/jquery.min.js"></script>
+	<script>
+		var last_top = 0;
+		$(window).scroll(function () {
+			var this_top = $(this).scrollTop();
+			if (this_top > last_top) {
+				$(".navbar").addClass("hide");
+			}
+			else {
+				$(".navbar").removeClass("hide");
+			}
+			last_top = this_top;
+		});
+	</script>
+</body>
+
+</html>

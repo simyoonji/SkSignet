@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top_bg{width:100%; height: 410px; background: url("../img/sub3/img_subbaner_business.jpg") no-repeat center; background-size:cover; }
+
+#section1{width:100%; height: 200px;}
+#section1 h1{width:1400px; height: 100%; margin: 0 auto; line-height: 200px; font-size:40px;}
+
+#section2{width:100%;  height: 846px; background:url("../img/sub3/bg_patent_new.jpg") no-repeat; background-size:cover;}
+#section2 .inner{width:1400px; height: 100%; margin: 0 auto;}
+#section2 .inner .box1{position: relative; padding: 110px 0; text-align: center; font-weight: normal; font-size:40px; color:white; 
+						border-bottom: 1px solid lightgray; }
+#section2 .inner .box1 p{}
+#section2 .inner .box1 p::before{content: "“"; position:absolute; top: 30px; left:50%; margin-left:-60px; color: lightgray; font-size: 120px; }
+#section2 .inner .box1 p::after{content: "”"; position:absolute; bottom: -60px; left:50%; margin-left:-60px; color: lightgray; font-size: 120px; }
+#section2 .inner .box1 p strong{font-weight: bold;}
+#section2 .inner .box2{height: 446px; padding: 80px 0;}
+#section2 .inner .box2 h1{text-align: center; font-size:30px; color:white;}
+#section2 .inner .box2 ul{display: flex; justify-content: space-between; margin-top: 40px;}
+#section2 .inner .box2 ul li{width: 200px; height: 150px; padding-top: 50px; border: 1px solid lightgray; border-radius: 100px; text-align: center;  
+							color: white; font-size: 13px; }
+#section2 .inner .box2 ul li img{transform: translateY(-15px);}
+#section2 .inner .box2 ul li h2{font-weight: normal;}
+#section2 .inner .box2 ul li h3{font-size: 40px; transform: translateY(10px);}
+
+#section3{ width:100%; background: #f5f5f5;} 
+#section3 .inner{ width:1400px; margin: 0 auto; padding: 150px;}
+#section3 .inner h1{font-size:40px;}
+#section3 .inner ul{display: flex; flex-wrap: wrap; justify-content: space-between; padding-top:50px; }
+#section3 .inner ul li{width: 335px; height: 300px;  box-shadow: 0 0 200px 1px lightgray;}
+#section3 .inner ul li:nth-child(n+5){height: 250px; margin-top: 40px;}
+#section3 .inner ul li .head{position: relative; width:100%; height: 50px; }
+#section3 .inner ul li .head h2{padding-left:20px; line-height: 50px; font-size: 18px; font-weight: normal; color:white; background:#d5021f;}
+#section3 .inner ul li .head h2::after{content:url("../img/sub3/bg_patents_list_type1.png"); position: absolute; top:20%; right:0; margin-right: 20px;}
+#section3 .inner ul li:nth-of-type(n+11) .head h2::after{content:url("../img/sub3/bg_patents_list_type2.png"); margin: -2px 20px 0 0;}
+#section3 .inner ul li:nth-child(n+11) .head h2{background:#ed6a00;}
+#section3 .inner ul li .content{padding:20px;}
+#section3 .inner ul li .content h3{height: 160px; font-weight: normal;}
+#section3 .inner ul li:nth-child(n+5) .content h3{height: 110px;}
+#section3 .inner ul li .content p{}
+
+#section4{width:100%; height: 1047px; background:url("../img/sub3/bg_patent_intellectual.jpg") no-repeat center; background-size: cover; }
+#section4 .inner{position:relative; width: 1400px; height: 977px; margin: 0 auto;}
+#section4 .inner h1{position: absolute; top: 160px; left:0; font-size: 25px; font-weight: normal; line-height: 55px; color: white;}
+#section4 .inner h1 strong{font-size: 50px;}
+#section4 .inner ul{position: relative; display: flex; justify-content: space-between; width:1400px; height: 977px;}
+#section4 .inner ul li{position: absolute;}
+#section4 .inner ul li:nth-of-type(1){bottom: 130px; left:10%;}
+#section4 .inner ul li:nth-of-type(2){top:160px; left:55%; margin-left: -205px;}
+#section4 .inner ul li:nth-of-type(3){bottom:130px; right:0}
+#section4 .inner ul li .dash{position: relative;width: 410px; height: 410px; border-radius: 205px; border: 3px dotted lightgray; }
+#section4 .inner ul li .dash .outcircle{position: absolute; top:50%; left:50%; transform: translate(-50%,-50%); width: 366px; height: 366px;
+										border-radius:183px; border:none; outline:none; background:lightgray; opacity: 0.5; }
+#section4 .inner ul li .dash .innercircle{position: absolute; top:50%; left:50%; transform: translate(-50%,-50%); width: 290px; height: 290px; 
+									border-radius:145px; border:none; outline:none; background: white;}
+#section4 .inner ul li .dash .txt{position: absolute; top:50%; left:50%; transform: translate(-50%,-50%); width: 186px; height: 140px; padding-top: 46px; 
+									border-radius:150px; border:none; outline:none; text-align: center;}
+#section4 .inner ul li .dash .txt h2{font-weight: normal; font-size: 20px; transform: translateY(-20px);}
+#section4 .inner ul li .dash .txt h2 strong{}
+#section4 .inner ul li .dash.txt p{transform: translateY(20px); font-size:22px; color:#5F5F5F}
+#section4 .inner ul li .dash .txt p span{font-size:15px;}
+#section4 .inner h3{position: absolute; top:70%; left:55%; margin-left: -100px;} 
+#section4 .inner h3 img{width:200px;}
+#section4 .inner .dot{}
+#section4 .inner .dot span{position:absolute; z-index: 100; top:60%; left:55%; margin-left: -5px; width:10px; height: 10px; border-radius: 5px; 
+							background: white; }
+#section4 .inner .dot span:nth-of-type(1){margin: 100px 0 0 -226px; }
+#section4 .inner .dot span:nth-of-type(2){margin-top: -16px;}
+#section4 .inner .dot span:nth-of-type(3){margin: 100px 0 0 216px;}
+#section4 .inner .dottedline{}
+#section4 .inner .dottedline span{position:absolute; top:60%; left:55%; width:110px; height: 5px; border-bottom: 2px dotted lightgray;}
+#section4 .inner .dottedline span:nth-of-type(1){margin: 125px 0 0 -220px; transform: rotate(25deg);}
+#section4 .inner .dottedline span:nth-of-type(2){margin: 40px 0 0 -52px; transform: rotate(90deg);}
+#section4 .inner .dottedline span:nth-of-type(3){margin: 125px 0 0 110px; transform: rotate(-25deg);}				

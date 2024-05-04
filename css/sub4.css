@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+#top_bg{width: 100%; height: 410px; background: url("../img/sub3/img_subbaner_company.jpg") no-repeat center; background-size:cover;}
+#section1{width: 100%; height: auto;}
+#section1 .inner{width: 1400px; margin: 0 auto;} 
+#section1 .inner .tophead{width:100%; height: 205px; border-bottom: 2px solid black;} 
+#section1 .inner .tophead h1{font-size:45px; padding-top: 60px; } 
+#section1 .inner .tophead .search{float:right; height: 50px;}
+#section1 .inner .tophead .search select{ width: 110px; height: 50px; padding-left: 15px; vertical-align: top; font-size: 15px;  }
+#section1 .inner .tophead .search select option{}
+#section1 .inner .tophead .search input{width: 200px; height: 46px; padding-left: 10px; outline:none; vertical-align: top; }
+#section1 .inner .tophead .search a{}
+#section1 .inner .tophead .search a img{}
+#section1 .inner .news{clear: both;}
+#section1 .inner .news li{width: 1400px; height: 420px; border-bottom: 1px solid lightgray;}		
+#section1 .inner .news li a{width: 1400px; height: 140px;}		
+#section1 .inner .news li a .article{display: flex;}
+#section1 .inner .news li a .article img{width:555px; padding-top:50px;}
+#section1 .inner .news li a .article .txt{width:845px; padding:100px 0 0 60px; text-align: left;}
+#section1 .inner .news li a .article .txt h2{margin-bottom: 15px;}
+#section1 .inner .news li a .article .txt h3{margin-bottom: 15px; color:gray; font-weight: normal; font-size: 18px;}
+#section1 .inner .news li a .article .txt span{display: block;width:70px; height: 25px; margin-bottom: 15px; background:yellow; font-size:15px; 
+												line-height: 25px; text-align: center;}
+#section1 .inner .news li a .article .txt p{color:#3E3E3E;}
+#section1 .inner .pagenum{width: 340px; height: 200px; margin: 0 auto; padding-top:60px;}
+#section1 .inner .pagenum .leftarrow{float: left;}
+#section1 .inner .pagenum .leftarrow li{float:left; margin-right: 10px;}
+#section1 .inner .pagenum .leftarrow li button{width:35px; height: 35px; border:none; outline:none; background: none; cursor:pointer;}
+#section1 .inner .pagenum .leftarrow li button img{}		
+#section1 .inner .pagenum .num{width:140px; margin: 0 auto; }
+#section1 .inner .pagenum .num li{float:left; width:35px; height: 35px; border-radius: 35px; color: gray; text-align: center;}
+#section1 .inner .pagenum .num li a{display: block; width: 35px; height: 35px; border-radius: 35px; text-align: center; line-height: 35px;}
+#section1 .inner .pagenum .num li a:hover{background: #d5021f; color:#E8E8E8;}
+#section1 .inner .pagenum .rightarrow{float: right;}
+#section1 .inner .pagenum .rightarrow li{float: left; margin-left: 10px;}
+#section1 .inner .pagenum .rightarrow li button{width:35px; height: 35px; border:none; outline:none; background: none; cursor:pointer;}
+#section1 .inner .pagenum .rightarrow li button img{}
+
